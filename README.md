@@ -13,9 +13,9 @@ I eventually decided I wanted to automate this process and also learn how to wri
 4. Type the path of the script followed by the name of the folder within your current working directory where you want to create the folders.
 5. Follow prompts for further instructions.
 
+## Copying feature
+The script offers to copy the contents of the pull folder to the push folder. It does not overwrite the contents of the push folder so you can create the folders, add contents to the pull folder, and tell the program to copy the contents, while keeping any changes intact.
+
 ## Future Plans
-1. Allow user to type "c" to copy the pull contents to push folder
-	* If I want the user to be able to use this multiple times on the same folder I need to be able to keep track of copied contents.
-	* I can potentially only prompt the user when a new file in the pull folder has been detected.
-2. Open up sublime text to the push folder
+1. Open up sublime text to the push folder
 	* I can either do this by just assuming the sublime directory is in the PATH variable or give the option to supply the sublime directory.
