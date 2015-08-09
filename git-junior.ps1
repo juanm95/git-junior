@@ -22,6 +22,7 @@ DO {
         md $pullFolder
         md $pushFolder
         # prompt user until a valid option is chosen.
+        # this is just a test wooo!
     } elseif($continueChoice.StartsWith("c",$case)) {# copy contents of last folder's pull into the push folder
         Copy-Item $pullFolder\* $pushFolder -Recurse
     }
